@@ -1,0 +1,38 @@
+  <html>
+      <head>
+          <link rel="stylesheet" href="index.css">
+      </head>
+
+
+
+      <body>
+        <header class="header" id="header"> 
+            <h1 class="heading">Etch A Sketch</h1>
+        </header>
+
+        <main>
+          <div id="grid-container" class="medium-grid-default"></div>
+
+          <div class="controls" id="controls">
+            <span class="dot" id="dot"></span>
+            <span class="dot1" id="dot1"></span>
+            <input id="colorPicker" type="color" value="#333333"/>
+            <button id="colorBtn">Color Mode</button>
+            <button id="rainbowBtn">Rainbow Mode</button>
+            <button id="clearBtn">Clear</button>
+            <div id="sizeValue" class="size-value" style="padding-top: 15px;">16 x 16</div>
+            <input id="sizeSlider" type="range" value="16" min="10" max="32"/>
+
+
+        
+          </div>
+
+        </main>
+
+
+
+
+      </body>
+      
+      <script src="app.js"></script>
+  </html>
